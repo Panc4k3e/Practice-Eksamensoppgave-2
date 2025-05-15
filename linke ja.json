@@ -1,0 +1,19 @@
+{
+    {
+        "id": 1,
+    "Innbygger_id": 1,
+    "Dato": "2023-10-01",
+    "GlassEnheter": 30,
+    "MetalEnheter": 23,
+    "TotalEnheter": 53
+    }
+
+    {
+    "id": 1,
+    "Navn": "albert",
+    "Dato": "2023-10-01",
+    "Adresse": "Storgata 1",
+    "Telefonnummer": "12345678",
+    "Epost": "jaja@gmail.com"
+    }
+}
