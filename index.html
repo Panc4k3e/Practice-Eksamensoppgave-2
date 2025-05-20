@@ -7,25 +7,33 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> Kristiansand Kommune</h1>
-    <h2>Resirkulering</h2>
-    
-    <div>
-        <h3> Antall GlassEnheter</h3>
-       <li> 30</li>
-       <button> Add </button>
-    </div>
-
-    <div>
-         <h3> Antall MetalEnheter</h3>
-         <li> 23</li>
-         <button> Add </button>
-    </div>
-    
-    <div>
-        <h3> Total Enheter</h3>
-        <li> 53</li>
-        <button> Add </button>
+    <div class="container">
+        <h1>Kristiansand Kommune</h1>
+        <h2>Resirkulering Oversikt</h2>
+        <table>
+            <tr>
+                <th>Type Enhet</th>
+                <th>Antall</th>
+            </tr>
+            <tr>
+                <td>GlassEnheter</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>MetalEnheter</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <th>Total Enheter</th>
+                <th>53</th>
+                <td></td>
+            </tr>
+        </table>
+        
+        <div class="add-section">
+            <p>Ønsker du å levere flere enheter?</p>
+            <button class="add-btn">Legg til flere</button>
+        </div>
     </div>
 </body>
 </html>
